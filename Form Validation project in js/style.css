@@ -57,7 +57,7 @@ body {
 }
 
 .form-control {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   position: relative;
 }
 .form-control label {
@@ -79,11 +79,11 @@ body {
   border-color: #777;
 }
 .form-control.success input {
-  border-color: rgba(38, 166, 91, 1);
+  border-color: #2ecc71;
 }
 
 .form-control.error input {
-  border-color: rgba(207, 0, 15, 1);
+  border-color: #e74c3c;;
 }
 
 .form-control i {
@@ -93,13 +93,13 @@ body {
   visibility: hidden;
 }
 
-.form-control .success i.fa-check-circle {
-  color: rgba(38, 166, 91, 1);
+.form-control.success i.fa-check-circle {
+  color:#2ecc71;
   visibility: visible;
 }
 
-.form-control .error i.fa-exclamation {
-  color: rgba(207, 0, 15, 1);
+.form-control.error i.fa-exclamation {
+  color:#e74c3c;
   visibility: visible;
 }
 .form-control small {
@@ -108,13 +108,12 @@ body {
 
 .form-control small {
   visibility: hidden;
-  color: rgba(207, 0, 15, 1);
+  color: #e74c3c;;
   position: absolute;
-  bottom: 0;
   left: 0;
   visibility: hidden;
 }
-.form-control .error small {
+.form-control.error small {
   visibility: visible;
 }
 
@@ -149,3 +148,4 @@ body {
     max-width: 100%;
   }
 }
+
