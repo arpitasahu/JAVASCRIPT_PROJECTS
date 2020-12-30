@@ -15,10 +15,9 @@
     <form class ="form" id="form">
       <div class ="form-control">
         <label>Username</label>
-        <input type="text" name ="" id ="username" placeholder="Enter your full name" autocomplete="off"  >  
-        
+        <input type="text" name ="" id ="username" placeholder="Enter your full name" autocomplete="off"  > 
         <i class="fas fa-check-circle"></i>
-        <i class="fas fa-exclamation"></i>
+        <i class="fas fa-exclamation-circle"></i>
         <small>Error Msg</small>
       </div>
 
@@ -26,7 +25,7 @@
         <label>Email</label>
         <input type="email" name ="" id ="email" placeholder="Enter your Email" autocomplete="off">
         <i class="fas fa-check-circle"></i>
-        <i class="fas fa-exclamation"></i>
+        <i class="fas fa-exclamation-circle"></i>
         <small>Error Msg</small>
       </div>
 
@@ -34,7 +33,7 @@
         <label>Phone Number</label>
         <input type="number" name ="" id ="phone" placeholder="Enter your phone number" autocomplete="off">
         <i class="fas fa-check-circle"></i>
-        <i class="fas fa-exclamation"></i>
+        <i class="fas fa-exclamation-circle"></i>
         <small>Error Msg</small>
       </div>
 
@@ -42,7 +41,7 @@
         <label>Password</label>
         <input type="password" name ="" id ="password" placeholder="Enter your Password" autocomplete="off">
         <i class="fas fa-check-circle"></i>
-        <i class="fas fa-exclamation"></i>
+        <i class="fas fa-exclamation-circle"></i>
         <small>Error Msg</small>
       </div>
 
@@ -50,13 +49,15 @@
         <label>Confirm Password</label>
         <input type="password" name ="" id ="cpassword" placeholder="Enter your Password  again" autocomplete="off">
         <i class="fas fa-check-circle"></i>
-        <i class="fas fa-exclamation"></i>
+        <i class="fas fa-exclamation-circle"></i>
         <small>Error Msg</small>
       </div>
       <input type ="submit" value="submit" class="btn">
   </div>
 </form>
 </body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 <script type ="text/javascript">
   const form = document.getElementById('form');
   const username = document.getElementById('username');
@@ -69,6 +70,34 @@
              event.preventDefault();
              validate();
       })
+
+      const sendData = (sRate,count) =>{
+        if(sRate === count){
+          alert('Resistration successful');
+          swal("welcome","Resistrion  successful","success");
+
+        }
+
+      }
+
+      //for final validation
+       const successMsg =() =>{
+         let formCon = document.getElementsByClassName('form-control');
+         var count =formCon.length -1;
+         for(var i = 0; i< formCon.length; i++){
+           if(formCon[i].className === 'form-control success'){
+           var sRate  = 0 + i;
+           console.log(sRate);
+           sendData(count);
+          }
+        
+           else{
+             return false;
+           }
+         }
+       };
+ 
+
 
       //more mail validation
          const isEmail =(emailVal) => {
@@ -150,14 +179,15 @@ if(emailVal === ""){
        alert('throw error');
      }
      else{
-       setSuccessMsg(email);
+       setSuccessMsg(cpassword);
      }
+     successMsg();
 
       }
     function setErrorMsg (input,errormsgs){
       const formControl = input.parentElement;
       const small = formControl.querySelector('small');
-      formControl.className = "form-Control error";
+      formControl.className = "form-Controlerror";
       console.log('added');
       small.innerText = errormsgs;
     }
