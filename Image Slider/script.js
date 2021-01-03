@@ -5,6 +5,7 @@ const prevBtn = document.querySelector(".prev-btn");
 const navigationDots = document.querySelector(".navigation-dots");
 
 let numberOfImages = slideImage.length;
+let slideWidth = slideImage[0].clientWidth;
 
 //slider setup
 function init() {
@@ -31,4 +32,10 @@ function createNavigationDots (){
   }
 }
 
+
+//next button
+nextBtn.addEventListener('click',()=>{
+slidesContainer.style.transform ="translateX(-"+slideWidth
++ "px)"
+})
 
