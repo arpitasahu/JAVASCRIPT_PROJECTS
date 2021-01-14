@@ -15,13 +15,14 @@ margin:auto;
 
  button{
   font-size: 40px;
-  background:chartreuse;
+  background:rgb(155, 199, 112);
   width:102px;
   height:90px;
   border-radius: 20px;
   margin: 6px;
   /* margin-top:20px; */
   /* background-color: #FFD54F; */
+  outline:none;
 
  }
  .calculator{
