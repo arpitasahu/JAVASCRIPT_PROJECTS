@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(100, 198, 237);
+}
+#player{
+  text-align: center;
+  padding-top:20px;
+}
+h2{
+  text-align: center;
+  padding-top: 2px;
+}
+tr{
+  width:120px;
+  height:90px;
+  background-color: rgb(0, 0, 0);
+
+
+}
+table{
+  margin:40px auto;
+}
+td{
+  width: 140px;
+  padding:10px;
+  color: rgb(223, 18, 18);
+  height: 90px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 50px;
+
+}
+td:hover{
+  cursor: pointer;
+  font-weight: 200px bold;
+  background-color: rgb(217, 219, 213);
+}
