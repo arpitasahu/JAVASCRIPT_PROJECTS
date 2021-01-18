@@ -1,13 +1,18 @@
 body{
-  background-color: rgb(100, 198, 237);
+  background-color: rgb(125, 202, 198);
+  max-width:100%;
+  height:auto
 }
 #player{
   text-align: center;
   padding-top:20px;
+  width:100%;
+  font-size:2vw;
 }
 h2{
   text-align: center;
   padding-top: 2px;
+  font-size:2vw;
 }
 tr{
   width:120px;
@@ -18,13 +23,17 @@ tr{
 }
 table{
   margin:40px auto;
+  background-color: rgb(187, 255, 0);
+  border-radius: 20px;
+  height: 60px;
+  width: 30%;
 }
 td{
   width: 140px;
   padding:10px;
   color: rgb(223, 18, 18);
   height: 90px;
-  border-radius: 20px;
+  border-radius: 40px;
   text-align: center;
   font-size: 50px;
 
@@ -32,5 +41,5 @@ td{
 td:hover{
   cursor: pointer;
   font-weight: 200px bold;
-  background-color: rgb(217, 219, 213);
+  background-color: rgb(241, 241, 237);
 }
