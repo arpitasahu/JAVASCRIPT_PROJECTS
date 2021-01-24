@@ -4,12 +4,12 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .menu-bar{
-  background-image:linear-gradient(to right, rgba(190, 147, 147, 0.479), yellow);
-
+  background-image:linear-gradient(to right, rgba(236, 41, 27, 0.479), rgba(211, 224, 20, 0.76));
+/* background-color: rgba(255, 0, 0, 0.678); */
 }
 
 .nav-link{
-  font-size: 15px;
+  font-size: 17px;
   color:rgb(212, 23, 23);
   margin:2px;
   font-weight:600;
@@ -29,9 +29,104 @@
 
 }
 .banner{
-  height:80vh;
+  height:50vh;
   background-position: center;
   background-size: cover;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgorehtGdFMxri5d-SyTcBCVuaapC3alVcpA&usqp=CAU');
-background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3ydEasRxK4LMCVahs-GBjAkKxyUxfMTLjw&usqp=CAU');
+  background-color: palegoldenrod;
+  background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQDQ8ODw8PDw8NDQ0NDQ8PDw8NDw0NFREWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAIcBdAMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIDBAUH/8QALRABAQABAgQFBAEEAwAAAAAAAAECAxEhMVHwEkFhcZEEE4Gh8RQyQsEiseH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A/ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC1LUBdzfvap30O+dBfF7fInz+lBQTedQUTxRPHO9waGfHO918U6gom8UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLVYtAXvvoigTv8Amr8/pO+pt3sBt3sqd+cAc+/VAAAA3RQEN6ANTUvu3NWezigPUPLMrOTthrS8+F/QOgAAAAAAAAAAAAAAAAAAAAAAAAAAJaCZ3yZiNAL331ADvnsd86vfQ75gnfNTvyAcQAAAEAAEARUBKzWkoNaetZwvGfuPTjd5vHiphqXG8OXnAe4ZwzmU3n8NAAAAAAAAAAAAAAAAAAAAAAAOed4+zed2jnAWKkUFAA76r3yh3zTvzA75Kd86A4kjXA8QEwWYxPEniBvadP8AYxubg6bm7nuu4N7TpGbhE3XcGbpdL8ueWFnOO8qyg8dZr2ZaUvp7OGpo2es9AccM7jd5+Z1e7S1JlN5+Z0rwWM46lwvin5nlYD6gxo6szx8U/PWXo2AAAAAAAAAIAogCiAKAAAADGpltPcGcrvfYiYxqAsVFAO+4L30A76HfM75Hz+gAAcscd/Nuacc25qzzBuYzorF1fRPuA6Dn9z0Wak9gbTwzooDNwjN03QBxu8WV1Yy0+nAElblcrw5pNWA3qaMy9L1jx62jZz5dXrmr6L92ecB8rHUy08vFjy/ynllH1tHVmeMyxu8vzL0rza30+OX9t2vS8q8OGplo577Xa/349Z1nqD7Q54a+Nkyl3l4zYur6A6Dj471TxXrQdxw8V60+7evyDsbvP/VTos1+k/f/AIDsOU1fRvHKXkDQm4CiANKxusoNDOWcnOsXXnlP9A62vPvvd2NT6jfht78Vw1J7A6xpIoKAAod9QO+p3yLe7dnLLXx9/ag698hw/qJ0/YDGWVZUAxydI5LLYDohMtwFmVnJ0x1erkA9Mo8y7g9Frnlqzy4uVZoLnlbz+HOzZtdgSK55Xb1/bFytB0yzjGpfFNsuM8us9qyoPPhMtK7z/lp3+6ec9X0MM5lJZd5eVcI45y4Xx4cv88OvrPUHvHn0tfxTeX/ree5llQdM9ST1v4cMsreZUgGyXhy4fLci+HviDOGr5Xh6+Tpxcc8WcNW48Lxn7gPbhq9fl2k35WPJK1jdgenao5fdy6l1KDpctubjnr9PlzzYBuUzz24ebNy6caYaV50DGK6TSvoznjZzAwzs5fD0YasvpXiurOvxxT73SA+kr5s1svK7F1MrztB9HxTrHHU+qxnKy334PDlWaDtlreLnfxyiysaejbz4T9u+OjJ6gyjr9udJ8ACKAiAAsyAGpVABQBKzQBi5k3oAv2/ZLo9ABizbmKAqoA8f1GjcL9zDhP8AKeX8Ov0/1MznSznAB12ddPQ343kAO0050XwzpABnLTl8nn1fp+iAPNjlcLw4zzj1aWpMpvPzOgA6JQBmsbADn/UYTztvpGp9XfLH5oAfezvnt7cCTrx9+IAl0p7MXDYAWKALMbXbT0ZOfG/oAdFAEUAf/9k=');
 }
+h1{
+  padding-top: 30px;
+  font-family: monospace;
+}
+.blinking{
+  animation:blinkingText 1.9s infinite;
+  text-shadow: 2px 9px 3px grey;
+  font-size: 25px;
+  font-family: cursive;
+}
+@keyframes blinkingText{
+  0%{     color: #000;    }
+  49%{    color: #000; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #000;    }
+}
+
+.search-job .form-control{
+  max-width:250px;
+  display:inline-flex ;
+  margin: 10px 20px;
+  border-radius: 0;
+  box-shadow: none !important;
+  border: none !important;
+}
+/* .btn-primary{
+  text-align: center;
+  */
+.search-job{
+  padding: 30px 0;
+  border: 2px solid black;
+  margin: -50px 6% 50px ;
+  /* display: inline-flex;
+  border-radius: 2px;
+  margin-left: 200px;
+  color:white;
+  border: none; */
+  /* box-shadow: 2px 1px 10px yellow; */
+  background-color: rgba(92, 85, 28, 0.363);
+}
+.search-job .btn-primary{
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  display: inline-flex;
+  margin: 4px;
+  padding:5px  20px;
+
+
+
+}
+.form-control:hover{
+  background-color: rgb(32, 11, 7);
+  color: white;
+  box-shadow: 1px 2px 4px greenyellow;
+  
+}
+.form-control:placeholder-shown{
+  font-size: 20px;
+}
+.btn-primary{
+  background-color: red;
+
+}
+
+  
+  .nav-link:hover{
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  .recuiters h1{
+    text-align: center;
+    padding-bottom: 40px;
+
+  }
+  h1::before{
+    content: '';
+    background-image:linear-gradient(to right, yellow,rgb(0, 124, 128)) ;
+    width:50px;
+    height:30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 90px;
+
+
+
+  }
+  .recuiters img{
+    max-width: 100px;
+    margin: 10px 20px;
+  }
