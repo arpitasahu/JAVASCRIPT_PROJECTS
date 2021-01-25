@@ -130,3 +130,74 @@ h1{
     max-width: 100px;
     margin: 10px 20px;
   }
+  .jobs{
+    padding: 50px; 
+    background-color:rgba(228, 233, 216, 0.39);
+  }
+  .apply{
+    height:40px;
+    /* margin-left: 20px;*/
+    padding: 7px;
+    /* border-radius: 30px; */
+    background-image: linear-gradient(to left, black,white);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: right;
+    outline: none;
+    border: none;
+    margin-top:20px;
+
+  }
+  .apply-btn{
+
+    
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      color: #f04714;
+      width: 60px;
+      height: 25px;
+      line-height: 2px;
+      border-radius: 5px;
+      text-align: center;
+      vertical-align: middle;
+      overflow: hidden;
+      font-weight: bold;
+      background-image: -webkit-linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+      background-image: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+      text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+  }
+  
+  .apply-btn:active{/*on click*/
+      -ms-transform: translateY(2px);
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+      background-image: -webkit-linear-gradient(#fed6e3 0%, #ffbcbc 100%);
+      background-image: linear-gradient(#fed6e3 0%, #ffbcbc 100%);
+  }
+  .apply-btn:hover{
+    cursor: pointer;
+  }
+  
+  .company-details{
+    box-shadow: 0px 2px 70px  rgba(7, 128, 111, 0.431);
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .job-update{
+    background-color: rgb(241, 245, 237);
+    padding:10px 20px;
+    border-radius: 5px;
+  }
+  
+  .job-update .fa{
+    margin-top: 6px;
+    margin-right: 10px;
+    color:red;
+  }
+
+  .job-update p{
+
+  }
